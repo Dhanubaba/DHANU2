@@ -61,7 +61,7 @@ def clr_logo():
      {d}│ {cha} {f}FACEBOOK   {g}➣      {h}DHANU BABAA           {d}│
      {d}│ {cha} {f}STATUS     {g}➣      {h}PREMIUM               {d}│
      {d}│ {cha} {f}TOOLTYPE   {g}➣      {h}FILE                  {d}│
-     {d}│ {cha} {f}VERSION    {g}➣      {h}0.0                   {d}│
+     {d}│ {cha} {f}VERSION    {g}➣      {h}v/0.0                   {d}│
      {d}└──────────────────────────────────────────────┘""")
 #▬▭▬▭▬▭▬▭[ MAIN DEF ]▬▭▬▭▬▭▬▭#
 def DHANU_main():
